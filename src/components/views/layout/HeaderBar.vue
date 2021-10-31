@@ -336,6 +336,9 @@
         window.location.href = process.env.VUE_APP_URL+ 'login';
       },
       userManager(){
+        this.$router.push({
+          path:'/userManager',
+        })
         console.log(222);
       }
 

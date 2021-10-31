@@ -43,3 +43,30 @@ export async function getWearther() {
   let res = await Api.getApi('weather/get/dalian/gjz?qybm=110000&isLoading=false');
   return res;
 }
+
+/**
+ * 获取用户列表
+ */
+
+export async  function queryUserInfo(){
+  let res = await Api.getApi('/userManage/query');
+  return res;
+}
+
+/**
+ * 删除用户
+ */
+
+export async  function deleteUser(reqData){
+  let res = await Api.deleteApi('/userManage/delete', reqData);
+  return res;
+}
+
+/**
+ * 设为管理员
+ */
+
+export async  function setAdmin(reqData){
+  let res = await Api.postApi('/userManage/setAdmin', reqData);
+  return res;
+}

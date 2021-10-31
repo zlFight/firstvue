@@ -21,8 +21,8 @@ export default {
         stompClient: null,
         editableTabs: [
             {
-                content: '/',
-                componentsName: 'Home',
+                content: '/overview',
+                componentsName: 'overview',
                 name: '0',
                 title:'首页'
             }

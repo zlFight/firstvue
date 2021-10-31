@@ -1,6 +1,5 @@
 <template>
   <div class="main-logo">
-    测试一下
     <el-image :src="require('../../assets/img/bg_develop.png')" class="image-region"></el-image>
   </div>
 </template>

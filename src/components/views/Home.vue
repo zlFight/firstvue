@@ -4,14 +4,14 @@
     </div>
 </template>
 <script>
-import {getHomePageData} from "@/axios/service/test/";
+import {getHomePageData} from "@/axios/service/test/"
     export default{
         created(){
-            
+
         },
         methods: {
-            
+
         }
     }
-    
+
 </script>

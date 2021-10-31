@@ -193,6 +193,7 @@
         this.contextMenuVisible = false;
         let tabs = this.editableTabs;
         let activeName = targetName.$options.propsData.name;
+        debugger;
         tabs.forEach((tab) => {
           if (tab.name === activeName) {
             this.$router.push({path: tab.content});
