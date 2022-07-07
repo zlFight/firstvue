@@ -41,7 +41,7 @@ import {login} from "@/axios/service/test/";
     data() {
       return{
         user:{
-          userName:'zhanglin',
+          userName:'mrZhang',
           password:'nlfd1993627',
         }
       }
